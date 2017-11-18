@@ -1,15 +1,79 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any styles
- * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
- * file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+html{ 
+    font-family: "Lucida Sans Unicode","Lucida Grande", sans-serif ;
+    background-color:#ffb3b3;
+    font-size: 13px;
+    width: 80%;
+    margin: auto;
+}
+
+ul{ 
+    list-style: none; 
+    padding: 20px ;
+    background-color: white; 
+  
+}
+
+.timer-estimate{
+    font-weight:normal;
+    font-size:12px;
+    background-color: #ff4dc4; 
+    color: white; 
+    padding: 3px;
+    margin-top: 5px;
+    border-radius: 50px;
+   
+}
+
+li{ 
+    font-weight:normal;
+    font-size:12; 
+    margin-bottom: 20px;
+}
+#box1{ 
+float:left; 
+width:40%; 
+padding:30px; 
+box-sizing:border-box; 
+}
+#box2{ 
+    float:right; 
+    width:60%;
+    padding:30px; 
+box-sizing:border-box;  
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+a{
+    text-decoration: none; 
+    color: red; 
+    vertical-align: middle;
+} 
+
+#editbutton{ 
+    background: orange;
+}
+#deletbutton{ 
+    background: purple;
+}
+#gobackbutton:hover{ 
+    background: green;
+} 
+a{
+    text-decoration: none; 
+    color: red; 
+    vertical-align: middle;
+} 
+
+#editbutton{ 
+    background: orange;
+}
+#deletbutton{ 
+    background: purple;
+}
+#gobackbutton:hover{ 
+    background: green;
+}
