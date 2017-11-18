@@ -55,12 +55,21 @@ a{
 
 #editbutton{ 
     background: orange;
+    padding: 5px 10px;
+    border-radius: 6px;
+    margin: 8px;
 }
 #deletbutton{ 
     background: purple;
+     padding: 5px 10px;
+    border-radius: 6px;
+    margin: 8px;
 }
 #gobackbutton:hover{ 
     background: green;
+     padding: 5px 10px;
+    border-radius: 6px;
+    margin: 8px;
 } 
 a{
     text-decoration: none; 
