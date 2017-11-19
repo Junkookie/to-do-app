@@ -3,13 +3,16 @@
            <%=@todo.description%>
            <h3>Todo #<%= params[:id] %></h3>
         </h2>
-        <span> <%= @todo_pomodoro_estimate %></span>
-            <a href="#" id="editbutton">
-                Edit
+        <span> <%= @todo.pomodoro_estimate %></span>
+            
+            <a href="/todo/edit/<%=@todo.id%>"> 
+            Edit 
             </a> 
+            
             <a href="#" id="deletbutton">
               Delet  
             </a> 
+            
             <a href="index.html" id="gobackbutton">
                 Go back
             </a>
