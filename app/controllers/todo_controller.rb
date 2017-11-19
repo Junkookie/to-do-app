@@ -4,6 +4,7 @@ class TodoController <ApplicationController
     end
        
     def index
+        @todos = Todo.all
     end
     
     def new
@@ -33,5 +34,5 @@ class TodoController <ApplicationController
      t = Todo.find_by_id(params[:id])   
      t.destroy
      redirect_to "/todo/index"
-    end
+    end 
 end
